@@ -36,6 +36,7 @@
 #include "config/feature.h"
 
 #include "fc/runtime_config.h"
+#include "config/feature.h"
 
 typedef void (*pwmWriteFuncPtr)(uint8_t index, uint16_t value);  // function pointer used to write motors
 
